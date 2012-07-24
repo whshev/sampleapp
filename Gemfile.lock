@@ -144,6 +144,7 @@ DEPENDENCIES
   jquery-rails (= 2.0.0)
   pg
   rails (= 3.2.6)
+  railties (= 3.2.6)
   rspec-rails (= 2.10.0)
   sass-rails (= 3.2.4)
   uglifier (= 1.2.3)
