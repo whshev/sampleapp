@@ -1,6 +1,7 @@
 source 'https://rubygems.org'
 
-gem 'rails', '3.2.7.rc1'
+gem 'rails', '3.2.8'
+gem 'bootstrap-sass'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
@@ -8,7 +9,7 @@ gem 'rails', '3.2.7.rc1'
 group :development, :test do
   #gem 'sqlite3', '1.3.5'
   gem 'pg'
-  gem 'rspec-rails', '2.10.0'
+  gem 'rspec-rails'
 end
 #gem 'sqlite3'
 
@@ -28,7 +29,7 @@ group :assets do
   #gem 'uglifier', '>= 1.0.3'
 end
 
-gem 'jquery-rails', '2.0.0'
+gem 'jquery-rails', '2.0.2'
 
 group :test do
   gem 'capybara', '1.1.2'
